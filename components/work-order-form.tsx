@@ -361,7 +361,7 @@ export default function WorkOrderForm() {
           </div>
         </div>
         <div></div>
-        <div className="border-2 border-black px-4 py-1 text-right">
+        <div className="border-2 border-black px-4 py-1 text-center">
           <span className="font-bold">Date: 22.03.2025</span>
         </div>
       </div>
@@ -371,14 +371,14 @@ export default function WorkOrderForm() {
           <div className="flex items-center">
             <span className="font-bold mr-2">1st Party</span>
             <span className="mr-2">:</span>
-            <div className="border border-black px-3 py-1 flex-1">Tithi Textile Mills (Pvt.) Ltd. (Export)</div>
+            <div className="border border-black px-3 py-1 flex-1 text-center font-bold">Tithi Textile Mills (Pvt.) Ltd. (Export)</div>
           </div>
         </div>
         <div className="grid grid-cols-2">
           <div className="flex items-center">
             <span className="font-bold mr-2">2nd Party</span>
             <span className="mr-2">:</span>
-            <div className="border border-black px-3 py-1 flex-1 text-center font-bold">RB Textile</div>
+            <div className="border border-black text-xl px-3 py-1 flex-1 text-center font-bold">RB Textile</div>
           </div>
         </div>
       </div>
