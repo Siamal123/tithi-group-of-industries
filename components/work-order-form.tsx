@@ -279,7 +279,7 @@ export default function WorkOrderForm() {
                           Merge {column.label}
                         </Label>
                       </div>
-                      <Button size="icon-sm" variant="ghost" onClick={() => removeColumn(column.id)}>
+                      <Button size="icon" variant="ghost" onClick={() => removeColumn(column.id)}>
                         <X className="w-4 h-4" />
                       </Button>
                     </div>
@@ -381,7 +381,7 @@ export default function WorkOrderForm() {
           <div className="flex items-center max-w-md">
             <span className="font-bold text-sm whitespace-nowrap">1st Party</span>
             <span className="mx-2">:</span>
-            <div className="border border-black px-3 py-1 flex-1 text-center">
+            <div className="border border-black px-3 py-1 flex-1 text-center font-bold">
               Tithi Textile Mills (Pvt.) Ltd. (Export)
             </div>
           </div>
@@ -667,11 +667,7 @@ export default function WorkOrderForm() {
                               className="flex-1 h-8"
                             />
                             {item.details.length > 1 && (
-                              <Button
-                                size="icon-sm"
-                                variant="ghost"
-                                onClick={() => removeDetailRow(item.id, detail.id)}
-                              >
+                              <Button size="icon" variant="ghost" onClick={() => removeDetailRow(item.id, detail.id)}>
                                 <X className="w-4 h-4" />
                               </Button>
                             )}
